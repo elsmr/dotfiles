@@ -16,14 +16,18 @@
 
 `bootstrap.sh` will copy all dotfiles into your home directory.
 
-⚠️ files may be overwritten.
-
 ```shell
 ./bootstrap.sh
 ```
 
+⚠️ files may be overwritten.
+
 ### Run setup.sh
 
 `setup.sh` in the root directory will run all `setup.sh` scripts in subdirectories as well as the `.macOS` script. Optionally you can select the tools you want to configure and only run those `setup.sh` scripts.
+
+```shell
+./setup.sh
+```
 
 ⚠️ VSCode, iTerm and Homebrew should be installed before running their `setup.sh`
