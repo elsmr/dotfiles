@@ -2,10 +2,7 @@
   "workbench.colorTheme": "Material Theme",
   "extensions.autoUpdate": true,
   "prettier.singleQuote": true,
-  "prettier.typescriptEnable": [
-    "typescript",
-    "typescriptreact"
-  ],
+  "prettier.typescriptEnable": ["typescript", "typescriptreact"],
   "prettier.eslintIntegration": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -13,10 +10,7 @@
   "terminal.integrated.cursorBlinking": true,
   "workbench.startupEditor": "none",
   "window.zoomLevel": 0,
-  "prettier.cssEnable": [
-    "css",
-    "scss"
-  ],
+  "prettier.cssEnable": ["css", "scss"],
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "editor.minimap.enabled": false,
