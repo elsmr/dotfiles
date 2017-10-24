@@ -7,7 +7,7 @@
 
 * fish config with git integration
 * iTerm config and theme
-* *TODO: VSCode settings, extensions and color theme*
+* VSCode settings, extensions and color theme
 * Common Homebrew formulae
 * Sensible macOS defaults based on https://mths.be/macOS
 * git config and aliases based on https://mths.be/dotfiles
