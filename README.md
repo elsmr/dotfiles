@@ -1,11 +1,11 @@
 # dotfiles
 > My config for macOS, git, fish, iTerm, VSCode etc.
 
-<img src="https://user-images.githubusercontent.com/8850410/31786549-3744f83e-b509-11e7-865e-0fe5491e28b9.png" width="70%" />
+<img src="https://user-images.githubusercontent.com/8850410/31827099-3a306eee-b5b7-11e7-81bf-0e5c34a9e7de.png" width="70%" />
 
 ## Features
 
-* *TODO: fish config with git integration* 
+* fish config with git integration
 * *TODO: iTerm config and theme*
 * *TODO: VSCode settings, extensions and color theme*
 * Common Homebrew formulae
@@ -14,19 +14,11 @@
 
 ## Installation
 
-### Run bootstrap.sh 
-
-`bootstrap.sh` will copy all dotfiles into your home directory.
-
-```shell
-./bootstrap.sh
-```
-
-⚠️ files may be overwritten.
-
 ### Run setup.sh
 
-Running `setup.sh` in the root directory will run all `setup.sh` scripts in subdirectories as well as the `.macOS` script. Optionally you can select the tools you want to configure and only run those `setup.sh` scripts.
+Please read through the `setup.sh` script and comment out parts you don't want.
+
+The script will backup your home directory to `~/home-backup`. After that it will copy the dotfiles and setup all the tools.
 
 ```shell
 ./setup.sh

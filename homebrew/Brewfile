@@ -40,5 +40,6 @@ brew "bramstein/webfonttools/sfnt2woff-zopfli"
 brew "bramstein/webfonttools/woff2"
 brew "homebrew/php/composer"
 brew "homebrew/php/php72"
+brew "hub"
 
 cask "caskroom/fonts/font-fira-code"
