@@ -6,7 +6,7 @@
 ## Features
 
 * fish config with git integration
-* *TODO: iTerm config and theme*
+* iTerm config and theme
 * *TODO: VSCode settings, extensions and color theme*
 * Common Homebrew formulae
 * Sensible macOS defaults based on https://mths.be/macOS
