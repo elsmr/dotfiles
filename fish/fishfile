@@ -1,7 +1,10 @@
 edc/bass
+fisherman/docker-completion
+brgmnn/fish-docker-compose
 eliasmeire/done
 fisherman/getopts
 fisherman/git_util
+eliasmeire/hub-fish-completions
 fisherman/humanize_duration
 eliasmeire/fish-simple
 fisherman/z
