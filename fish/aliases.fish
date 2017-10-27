@@ -4,9 +4,11 @@ alias .... "cd ../../.."
 alias ..... "cd ../../../.."
 
 # general
+alias git hub
 alias g git
 alias hosts='sudo $EDITOR /etc/hosts'
-alias git hub
+alias d docker
+alias dcom docker-compose
 
 # typos
 alias gti git
