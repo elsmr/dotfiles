@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-echo "fish setup"
+# get absolute path of script
+dir=$(dirname $(realpath $0))
 
 # exit if fish is not installed
 if ! which fish > /dev/null; then
@@ -8,14 +9,14 @@ if ! which fish > /dev/null; then
     exit 1
 fi
 
+# symlink fish config over to ~/.config/fish
+ln -sfnv $dir/* ~/.config/fish
+
+# clear fish_greeting
+fish -c "set fish_greeting"
+
 # install fisherman (fish package manager)
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
 
-# symlink fish config over to ~/.config/fish
-ln -sf $(pwd)/* ~/.config/fish/
-
 # Install fisherman packages
-fisher
-
-# clear fish_greeting
-set fish_greeting
+fish -c "fisher"

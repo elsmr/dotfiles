@@ -11,11 +11,17 @@ if ! which code > /dev/null; then
     fi
 fi
 
+# get absolute path of script
+dir=$(dirname $(realpath $0))
+
 # install extensions
 while read extension; do
   code --install-extension $extension
-done < ./extensions
+done < $dir/extensions
 
-# symlink settings and snippets (replacing the current files)
-ln -sf $(pwd)/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -sf $(pwd)/snippets/ ~/Library/Application\ Support/Code/User/snippets
+# symlink settings
+ln -sfv $dir/settings.json ~/Library/Application\ Support/Code/User/settings.json
+
+# symlink snippets
+rm -rf ~/Library/Application\ Support/Code/User/snippets
+ln -sfnv $dir/snippets ~/Library/Application\ Support/Code/User/snippets
