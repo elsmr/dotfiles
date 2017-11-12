@@ -18,5 +18,5 @@ alias brwe brew
 alias brew_update "brew -v update; brew upgrade --force-bottle --cleanup; brew cleanup; brew cask cleanup; brew prune"
 alias npm_update "npm i npm -g; npm update -g"
 alias gem_update "sudo gem update --system; sudo gem update --no-document"
-alias mac_update "sudo softwareupdate -iva"
-alias update "mac_update; gem_update;"
+alias mac_update "sudo softwareupdate -ia --verbose"
+alias update "mac_update; gem_update; brew_update; npm_update"
