@@ -15,8 +15,9 @@ alias gti git
 alias brwe brew
 
 # updating
-alias brew_update "brew -v update; brew upgrade --force-bottle --cleanup; brew cleanup; brew cask cleanup; brew prune"
-alias npm_update "npm i npm -g; npm update -g"
-alias gem_update "sudo gem update --system; sudo gem update --no-document"
-alias mac_update "sudo softwareupdate -ia --verbose"
-alias update "mac_update; gem_update; brew_update; npm_update"
+alias update_brew "brew -v update; brew upgrade --force-bottle --cleanup; brew cleanup; brew cask cleanup; brew prune"
+alias update_npm "npm i npm -g; npm update -g"
+alias update_gems "sudo gem update --system; sudo gem update --no-document"
+alias update_mac "sudo softwareupdate -ia --verbose"
+alias update_apps "mas upgrade"
+alias update "update_mac; update_apps; update_gems; update_brew; update_npm"
