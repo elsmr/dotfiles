@@ -6,5 +6,6 @@ fisherman/getopts
 fisherman/git_util
 eliasmeire/hub-fish-completions
 fisherman/humanize_duration
+fisherman/rvm
 eliasmeire/fish-simple
 fisherman/z
