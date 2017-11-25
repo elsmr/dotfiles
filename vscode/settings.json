@@ -23,5 +23,6 @@
   "importCost.largePackageColor": "#f07178",
   "importCost.mediumPackageColor": "#ffcb6b",
   "importCost.smallPackageColor": "#c3e88d",
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.confirmDragAndDrop": false
 }
