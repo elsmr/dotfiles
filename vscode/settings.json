@@ -1,12 +1,11 @@
 {
   "workbench.colorTheme": "Material Theme",
-  "extensions.autoUpdate": true,
   "prettier.singleQuote": true,
-  "prettier.typescriptEnable": ["typescript", "typescriptreact"],
   "prettier.eslintIntegration": true,
   "material-icon-theme.folders.theme": "classic",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "files.autoSave": "onFocusChange",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "terminal.integrated.cursorBlinking": true,
   "workbench.startupEditor": "none",
@@ -35,5 +34,6 @@
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
-  "git.autofetch": true
+  "git.autofetch": true,
+  "gitlens.keymap": "alternate"
 }
