@@ -1,4 +1,5 @@
 # dotfiles
+
 > My config for macOS, git, fish, iTerm, VSCode etc.
 
 <img src="https://user-images.githubusercontent.com/8850410/31827099-3a306eee-b5b7-11e7-81bf-0e5c34a9e7de.png" width="70%" />
@@ -25,3 +26,12 @@ The script will backup your home directory to `~/home-backup`. After that it wil
 ```
 
 ⚠️ VSCode, iTerm and Homebrew should be installed before running their `setup.sh`
+
+## Keeping everything up-to-date
+
+Most dotfiles and settings are symlinked so they will be updated automatically.
+The files that cannot be symlinked can be updated by running `update.sh`.
+
+```shell
+./update.sh
+```
