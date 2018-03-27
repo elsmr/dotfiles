@@ -20,7 +20,8 @@ function setup {
         fi
 
         # create the symlink
-        ln -sf $item "~/$(basename $item)"
+        dest="$HOME/$(basename $item)"
+        ln -sfnv $item $dest 
     done
 
     # Run setup for all tools (comment out what you don't need or want)
