@@ -1,8 +1,7 @@
 {
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Material Theme Palenight",
   "prettier.singleQuote": true,
   "prettier.eslintIntegration": true,
-  "material-icon-theme.folders.theme": "classic",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "files.autoSave": "onFocusChange",
@@ -14,15 +13,12 @@
   "git.enableSmartCommit": true,
   "editor.minimap.enabled": false,
   "docker.showExplorer": false,
-  "materialTheme.cache.workbench.settings": {
-    "themeColours": "Palenight"
-  },
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "importCost.largePackageColor": "#f07178",
   "importCost.mediumPackageColor": "#ffcb6b",
   "importCost.smallPackageColor": "#c3e88d",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "eq-material-theme-icons",
   "explorer.confirmDragAndDrop": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
@@ -31,9 +27,13 @@
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
   },
   "git.autofetch": true,
-  "gitlens.keymap": "alternate"
+  "gitlens.keymap": "alternate",
+  "jest.autoEnable": false,
+  "material-icon-theme.folders.theme": "classic"
 }
