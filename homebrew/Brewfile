@@ -34,7 +34,8 @@ brew "libyaml"
 brew "lynx"
 brew "mas"
 brew "moreutils"
-brew "node"
+brew "node", link: false
+brew "node@8", link: true
 brew "openssh"
 brew "php"
 brew "rename"

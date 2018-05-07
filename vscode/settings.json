@@ -35,5 +35,9 @@
   "git.autofetch": true,
   "gitlens.keymap": "alternate",
   "jest.autoEnable": false,
-  "material-icon-theme.folders.theme": "classic"
+  "material-icon-theme.folders.theme": "classic",
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
 }
