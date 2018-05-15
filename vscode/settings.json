@@ -38,6 +38,6 @@
   "material-icon-theme.folders.theme": "classic",
   "terminal.external.osxExec": "iTerm.app",
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": false
   }
 }
