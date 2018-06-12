@@ -1,0 +1,38 @@
+[
+    {
+        "key": "ctrl+l",
+        "command": "toggle",
+        "when": "editorTextFocus",
+        "args": {
+            "id": "moreDetails",
+            "value": [
+                {
+                    "editor.lineNumbers": "off",
+                    "editor.renderWhitespace": "none"
+                },
+                {
+                    "editor.lineNumbers": "on",
+                    "editor.renderWhitespace": "boundary"
+                }
+            ]
+        }
+    },
+    {
+        "key": "shift+alt+g",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
+    }
+]

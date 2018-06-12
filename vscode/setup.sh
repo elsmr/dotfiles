@@ -21,6 +21,7 @@ done < $dir/extensions
 
 # symlink settings
 ln -sfv $dir/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sfv $dir/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 # symlink snippets
 rm -rf ~/Library/Application\ Support/Code/User/snippets
