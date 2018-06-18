@@ -17,9 +17,10 @@
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
-  "editor.renderLineHighlight": "none",
+  "editor.renderLineHighlight": "gutter",
   "editor.renderWhitespace": "none",
   "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.colors": false,
   "explorer.openEditors.visible": 0,
   "extensions.showRecommendationsOnlyOnDemand": true,
   "files.autoSave": "onFocusChange",
@@ -37,6 +38,11 @@
     "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
+  },
+  "workbench.colorCustomizations": {
+    "editorGutter.modifiedBackground": "#6699CC",
+    "editorGutter.addedBackground": "#99C794",
+    "editorGutter.deletedBackground": "#E15A60"
   },
   "gitlens.codeLens.enabled": false,
   "gitlens.defaultDateFormat": "MMM Mo YYYY, HH:MM",
