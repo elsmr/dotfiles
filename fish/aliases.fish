@@ -9,6 +9,7 @@ alias g git
 alias hosts='sudo $EDITOR /etc/hosts'
 alias d docker
 alias dcom docker-compose
+alias code code-insiders
 
 # typos
 alias gti git
