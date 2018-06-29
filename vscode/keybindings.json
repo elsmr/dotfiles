@@ -8,13 +8,11 @@
             "value": [
                 {
                     "editor.lineNumbers": "off",
-                    "editor.renderWhitespace": "none",
-                    "workbench.statusBar.visible": false
+                    "editor.renderWhitespace": "none"
                 },
                 {
                     "editor.lineNumbers": "on",
-                    "editor.renderWhitespace": "boundary",
-                    "workbench.statusBar.visible": true,
+                    "editor.renderWhitespace": "boundary"
                 }
             ]
         }
