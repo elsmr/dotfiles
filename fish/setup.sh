@@ -10,13 +10,12 @@ if ! which fish > /dev/null; then
 fi
 
 # symlink fish config over to ~/.config/fish
-ln -sfnv $dir/* ~/.config/fish
+ln -sfnv $dir/aliases.fish ~/.config/fish/aliases.fish
+ln -sfnv $dir/config.fish ~/.config/fish/config.fish
+ln -sfnv $dir/fishfile ~/.config/fish/fishfile
 
-# clear fish_greeting
-fish -c "set fish_greeting"
-
-# install fisherman (fish package manager)
-curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+# install fisher (fish package manager)
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
 # Install fisherman packages
 fish -c "fisher"
