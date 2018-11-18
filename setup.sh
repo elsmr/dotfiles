@@ -14,8 +14,8 @@ function setup {
 
     # symlink only root dotfiles into home directory
     for item in $(pwd)/.[^.]*; do
-        # Skip .git and .DS_Store
-        if [[ $item == */.git ]] || [[ $item == */.DS_Store ]]; then
+        # Skip .git, .DS_Store, .macos
+        if [[ $item == */.git ]] || [[ $item == */.DS_Store ]] || [[ $item == */.macos ]]; then
             continue
         fi
 
