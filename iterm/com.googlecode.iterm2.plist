@@ -838,11 +838,15 @@
 	<false/>
 	<key>EnableDivisionView</key>
 	<false/>
+	<key>EnableProxyIcon</key>
+	<false/>
 	<key>FlashTabBarInFullscreen</key>
 	<false/>
 	<key>HideActivityIndicator</key>
 	<true/>
 	<key>HideScrollbar</key>
+	<true/>
+	<key>HideTab</key>
 	<true/>
 	<key>HideTabCloseButton</key>
 	<true/>
@@ -854,10 +858,6 @@
 	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>NSNavLastRootDirectory</key>
-	<string>~/.iterm2</string>
-	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -894,20 +894,14 @@
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>1169 110 445 276 0 0 1680 1050 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>640 690 400 129 0 0 1680 1028 </string>
+	<string>413 693 400 129 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 493 620 392 0 0 1680 1028 </string>
+	<string>530 476 620 392 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>260 381 796 473 0 0 1680 1028 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>127 444 592 584 0 0 1680 1028 </string>
+	<string>282 179 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 64 1680 964 0 0 1680 1028 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>238 576 570 452 0 0 1680 1028 </string>
+	<string>54 626 570 401 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_54805925-5688-4C80-8447-413FCF2818E6</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_54805925-5688-4C80-8447-413FCF2818E6_selection</key>
@@ -1653,24 +1647,12 @@
 			<string>/Users/eliasmeire</string>
 		</dict>
 	</array>
-	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
-	<true/>
-	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
-	<integer>0</integer>
-	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<key>NoSyncHaveRequestedFullDiskAccess</key>
 	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
-	<key>NoSyncInstallUtilitiesPackage</key>
-	<true/>
-	<key>NoSyncInstallUtilitiesPackage_selection</key>
-	<integer>0</integer>
 	<key>NoSyncInstallationId</key>
-	<string>8FAB6240-96AD-4932-960E-1C982113BF96</string>
-	<key>NoSyncLastTipTime</key>
-	<real>530546599.717511</real>
+	<string>1C4CD78D-2705-41D0-98D9-861798FC0DA5</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1678,11 +1660,7 @@
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>525625185.69238698</real>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>000</string>
-	</array>
+	<real>551962166.85654998</real>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>PMPrintingExpandedStateForPrint2</key>
@@ -1721,7 +1699,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/eliasmeire/.iterm2</string>
+	<string>~/.iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1731,11 +1709,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=97</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=14</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-10-24T14:03:36Z</date>
+	<date>2018-11-18T14:27:14Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1747,15 +1725,13 @@
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.32653245192307695</real>
+	<real>0.45447465945512822</real>
 	<key>StretchTabsToFillBar</key>
-	<true/>
+	<false/>
 	<key>TabStyle</key>
 	<integer>0</integer>
 	<key>TabViewType</key>
-	<integer>2</integer>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1508485888</real>
+	<integer>0</integer>
 	<key>UseBorder</key>
 	<false/>
 	<key>WindowNumber</key>
@@ -1769,7 +1745,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.4</string>
+	<string>3.2.5</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
