@@ -1,11 +1,10 @@
 {
   "docker.showExplorer": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": false
+    "source.organizeImports": true
   },
   "editor.cursorBlinking": "phase",
   "editor.cursorWidth": 0,
-  "editor.folding": false,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
@@ -23,7 +22,6 @@
   "explorer.decorations.colors": false,
   "explorer.openEditors.visible": 0,
   "extensions.showRecommendationsOnlyOnDemand": true,
-  "files.autoSave": "onFocusChange",
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
@@ -66,9 +64,15 @@
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Raijū - Subliminal",
+  "workbench.colorTheme": "Night Owl",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
   "workbench.startupEditor": "none",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": true,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "materialTheme.fixIconsRunning": false,
+  "go.gotoSymbol.includeImports": true,
+  "go.autocompleteUnimportedPackages": true,
+  "files.autoSave": "onFocusChange"
 }

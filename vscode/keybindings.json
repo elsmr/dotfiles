@@ -34,5 +34,9 @@
     {
         "key": "ctrl+shift+g",
         "command": "-workbench.view.scm"
+    },
+    {
+        "key": "cmd+up",
+        "command": "workbench.files.action.collapseExplorerFolders"
     }
 ]

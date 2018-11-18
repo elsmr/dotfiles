@@ -13,6 +13,7 @@ fi
 ln -sfnv $dir/aliases.fish ~/.config/fish/aliases.fish
 ln -sfnv $dir/config.fish ~/.config/fish/config.fish
 ln -sfnv $dir/fishfile ~/.config/fish/fishfile
+ln -sfnv $dir/functions/* ~/.config/fish/functions
 
 # install fisher (fish package manager)
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
