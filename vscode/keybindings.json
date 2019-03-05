@@ -1,42 +1,57 @@
 [
-    {
-        "key": "ctrl+l",
-        "command": "toggle",
-        "when": "editorTextFocus",
-        "args": {
-            "id": "moreDetails",
-            "value": [
-                {
-                    "editor.lineNumbers": "off",
-                    "editor.renderWhitespace": "none"
-                },
-                {
-                    "editor.lineNumbers": "on",
-                    "editor.renderWhitespace": "boundary"
-                }
-            ]
+  {
+    "key": "ctrl+l",
+    "command": "toggle",
+    "when": "editorTextFocus",
+    "args": {
+      "id": "moreDetails",
+      "value": [
+        {
+          "editor.lineNumbers": "off",
+          "editor.renderWhitespace": "none"
+        },
+        {
+          "editor.lineNumbers": "on",
+          "editor.renderWhitespace": "boundary"
         }
-    },
-    {
-        "key": "shift+alt+g",
-        "command": "editor.action.previousMatchFindAction",
-        "when": "editorFocus"
-    },
-    {
-        "key": "shift+cmd+g",
-        "command": "-editor.action.previousMatchFindAction",
-        "when": "editorFocus"
-    },
-    {
-        "key": "shift+cmd+g",
-        "command": "workbench.view.scm"
-    },
-    {
-        "key": "ctrl+shift+g",
-        "command": "-workbench.view.scm"
-    },
-    {
-        "key": "cmd+up",
-        "command": "workbench.files.action.collapseExplorerFolders"
+      ]
     }
+  },
+  {
+    "key": "shift+alt+g",
+    "command": "editor.action.previousMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "-editor.action.previousMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "cmd+d",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.terminal.kill",
+    "when": "terminalFocus"
+  }
 ]
