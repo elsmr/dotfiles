@@ -10,7 +10,6 @@ alias hosts "sudo $EDITOR /etc/hosts"
 alias d docker
 alias dcom docker-compose
 alias nodejs node
-alias nvm fnm
 alias reload "source ~/.config/fish/config.fish"
 
 # apps

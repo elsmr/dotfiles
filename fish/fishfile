@@ -4,10 +4,10 @@ edc/bass
 eliasmeire/done
 eliasmeire/fish-simple
 eliasmeire/hub-fish-completions
-fisherman/git_util
-fisherman/humanize_duration
 jethrokuan/z
 jorgebucaran/fish-git-util
-jorgebucaran/FISH-humanize_duration
 jorgebucaran/fishopts
-jorgebucaran/fnm
+fishpkg/fish-humanize-duration
+jorgebucaran/fish-nvm
+fishpkg/fish-git-util
+laughedelic/fish_logo
