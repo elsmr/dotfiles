@@ -7,7 +7,7 @@
   "editor.cursorWidth": 0,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
   "editor.formatOnSaveTimeout": 1500,
   "editor.hideCursorInOverviewRuler": true,
@@ -82,5 +82,12 @@
   "gitlens.views.lineHistory.location": "scm",
   "gitlens.views.compare.location": "scm",
   "gitlens.views.search.location": "scm",
-  "search.usePCRE2": true
+  "search.usePCRE2": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.featureSet": "insiders"
 }
