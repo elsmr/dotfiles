@@ -1,4 +1,4 @@
-{
+ {
   "docker.showExplorer": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
@@ -75,6 +75,7 @@
   "workbench.colorCustomizations": {},
   "workbench.statusBar.feedback.visible": false,
   "window.zoomLevel": 0,
+  "scm.defaultViewMode": "tree",
   "gitlens.views.repositories.enabled": false,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.fileHistory.location": "scm",
@@ -82,12 +83,14 @@
   "gitlens.views.lineHistory.location": "scm",
   "gitlens.views.compare.location": "scm",
   "gitlens.views.search.location": "scm",
-  "search.usePCRE2": true,
+  "liveshare.featureSet": "insiders",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "liveshare.featureSet": "insiders"
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
