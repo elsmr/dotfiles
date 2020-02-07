@@ -5,5 +5,7 @@ test -e {$HOME}/.config/fish/private.fish; and source {$HOME}/.config/fish/priva
 set -x EDITOR vim
 set -x PATH $HOME/.cargo/bin "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" $PATH
 set -x PATH $HOME/emsdk $HOME/emsdk/clang/e1.38.21_64bit $HOME/emsdk/emscripten/1.38.21 $PATH
+set -x PATH $HOME/go/bin $PATH
+set -x GOPATH $HOME/go
 
 status --is-interactive; and source (rbenv init -|psub)

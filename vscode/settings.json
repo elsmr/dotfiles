@@ -1,5 +1,4 @@
  {
-  "docker.showExplorer": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
@@ -9,12 +8,11 @@
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
   "editor.formatOnSave": true,
-  "editor.formatOnSaveTimeout": 1500,
   "editor.hideCursorInOverviewRuler": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.lineHeight": 20,
   "editor.lineNumbers": "off",
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "near",
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
@@ -61,7 +59,6 @@
   "javascript.implicitProjectConfig.checkJs": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "jest.autoEnable": false,
-  "prettier.singleQuote": true,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
@@ -71,9 +68,7 @@
   "workbench.iconTheme": "ayu",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "workbench.colorCustomizations": {},
-  "workbench.statusBar.feedback.visible": false,
   "window.zoomLevel": 0,
   "scm.defaultViewMode": "tree",
   "gitlens.views.repositories.enabled": false,
@@ -83,7 +78,9 @@
   "gitlens.views.lineHistory.location": "scm",
   "gitlens.views.compare.location": "scm",
   "gitlens.views.search.location": "scm",
-  "liveshare.featureSet": "insiders",
+  "liveshare.featureSet": "insiders",,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 8,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -91,6 +88,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
