@@ -1,4 +1,4 @@
- {
+{
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
@@ -78,9 +78,13 @@
   "gitlens.views.lineHistory.location": "scm",
   "gitlens.views.compare.location": "scm",
   "gitlens.views.search.location": "scm",
-  "liveshare.featureSet": "insiders",,
+  "liveshare.featureSet": "insiders",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 8,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Material Theme Palenight High Contrast",
+  "workbench.preferredLightColorTheme": "GitHub Plus",
+  "workbench.preferredHighContrastColorTheme": "Default High Contrast",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
