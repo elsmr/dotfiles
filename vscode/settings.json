@@ -17,7 +17,7 @@
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "boundary",
   "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "explorer.confirmDelete": false,
@@ -68,8 +68,7 @@
   "workbench.iconTheme": "ayu",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
-  "workbench.colorCustomizations": {},
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "scm.defaultViewMode": "tree",
   "gitlens.views.repositories.enabled": false,
   "gitlens.views.fileHistory.enabled": true,
@@ -100,5 +99,11 @@
   "workbench.colorTheme": "Material Theme Palenight High Contrast",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.colorCustomizations": {
+    "[GitHub Plus]": {
+      "terminal.ansiGreen": "#22863A",
+      "statusBar.background": "#24292e",
+      "statusBar.foreground": "#fafbfc"
+    }
   }
 }

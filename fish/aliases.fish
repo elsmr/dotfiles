@@ -8,6 +8,7 @@ alias git hub
 alias g git
 alias hosts "sudo $EDITOR /etc/hosts"
 alias d docker
+alias k kubectl
 alias dcom docker-compose
 alias nodejs node
 alias reload "source ~/.config/fish/config.fish"
@@ -20,7 +21,6 @@ alias chrome-canary "open -a 'Google Chrome Canary'"
 alias slack "open -a 'Slack'"
 alias spotify "open -a 'Spotify'"
 alias messenger "open -a 'Messenger'"
-alias chr chrome
 alias ff firefox
 
 # typos

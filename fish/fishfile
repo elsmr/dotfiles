@@ -13,3 +13,4 @@ fishpkg/fish-git-util
 laughedelic/fish_logo
 laughedelic/pisces
 jethrokuan/fzf
+evanlucas/fish-kubectl-completions
