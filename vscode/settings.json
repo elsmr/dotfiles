@@ -12,12 +12,12 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.lineHeight": 20,
   "editor.lineNumbers": "off",
-  "editor.matchBrackets": "near",
+  "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "none",
   "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "explorer.confirmDelete": false,
@@ -96,14 +96,15 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "GitHub Plus",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["Showpad"],
+  "cSpell.enableFiletypes": ["md", "text"],
   "workbench.colorCustomizations": {
     "[GitHub Plus]": {
-      "terminal.ansiGreen": "#22863A",
-      "statusBar.background": "#24292e",
-      "statusBar.foreground": "#fafbfc"
+      "terminal.ansiGreen": "#22863A"
     }
   }
 }

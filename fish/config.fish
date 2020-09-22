@@ -9,3 +9,5 @@ set -x PATH $HOME/go/bin $PATH
 set -x GOPATH $HOME/go
 
 status --is-interactive; and source (rbenv init -|psub)
+export AWS_REGION=eu-central-1
+export AWS_SDK_LOAD_CONFIG=1
