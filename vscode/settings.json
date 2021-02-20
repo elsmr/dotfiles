@@ -11,13 +11,13 @@
   "editor.hideCursorInOverviewRuler": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.lineHeight": 20,
-  "editor.lineNumbers": "off",
+  "editor.lineNumbers": "on",
   "editor.matchBrackets": false,
   "editor.minimap.enabled": false,
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "boundary",
   "editor.acceptSuggestionOnCommitCharacter": true,
   "editor.acceptSuggestionOnEnter": "smart",
   "explorer.confirmDelete": false,
@@ -96,15 +96,21 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "GitHub Plus",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "workbench.colorTheme": "GitHub Plus",
   "cSpell.userWords": ["Showpad"],
   "cSpell.enableFiletypes": ["md", "text"],
   "workbench.colorCustomizations": {
     "[GitHub Plus]": {
       "terminal.ansiGreen": "#22863A"
     }
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.authenticationProvider": "GitHub"
 }
